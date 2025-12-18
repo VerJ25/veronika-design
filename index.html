@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VeronikaDesign | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600;700&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Přeskočit na obsah</a>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="VeronikaDesign">
+          <span class="brand__name">VeronikaDesign</span>
+        </a>
+
+        <nav class="nav" aria-label="Hlavní navigace">
+          <a href="#sluzby">Služby</a>
+          <a href="#o-mne">O mně</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#recenze">Recenze</a>
+          <a href="#kontakt">Kontakt</a>
+        </nav>
+
+        <a class="btn btn--primary header__cta" href="tel:+420702007423"
+          >+420 702 007 423</a
+        >
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section id="top" class="hero">
+        <div class="container hero__inner">
+          <div class="hero__text">
+            <p class="eyebrow">VERONIKA DESIGN</p>
+
+            <h1>
+              Navrhuji grafický design a texty na míru, díky kterým vaše značka
+              <span class="accent">vynikne online i offline.</span>
+            </h1>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#portfolio"
+                >Zobrazit portfolio</a
+              >
+              <a class="btn btn--secondary" href="#o-mne">Poznat mě blíže</a>
+            </div>
+          </div>
+
+          <div class="hero__visual">
+            <img
+              src="assets/o mne-veronika.png"
+              alt="Veronika – grafická designérka"
+              class="hero__img"
+              loading="eager"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- SLUŽBY -->
+      <section id="sluzby" class="section">
+        <div class="container">
+          <h2>Služby</h2>
+
+          <div class="grid grid--4">
+            <article class="card">Grafický design</article>
+            <article class="card">Vizuální identita</article>
+            <article class="card">Ilustrace / vektory</article>
+            <article class="card">Texty / copy</article>
+          </div>
+        </div>
+      </section>
+
+      <!-- O MNĚ -->
+      <section id="o-mne" class="section">
+        <div class="container two-col">
+          <div>
+            <h2>O mně</h2>
+            <p>
+              Jsem grafická designérka zaměřená na vizuální identitu, ilustrace
+              a obsah, který dává značce smysl. Baví mě propojovat estetiku,
+              jednoduchost a funkčnost.
+            </p>
+          </div>
+
+          <div class="card about__visual">
+            <img
+              src="assets/foto web.png"
+              alt="Veronika – portrét"
+              class="about__img"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section id="portfolio" class="section">
+        <div class="container">
+          <h2>Portfolio</h2>
+
+          <div class="grid grid--2">
+            <article class="card work">
+              <img
+                src="assets/porfolio-city.png"
+                alt="Grafický vizuál – město"
+                class="work__img"
+                loading="lazy"
+              />
+              <h3 class="work__title">Grafický vizuál</h3>
+              <p class="work__desc">Práce s kompozicí, barvou a atmosférou.</p>
+            </article>
+
+            <article class="card work">
+              <img
+                src="assets/portfolio-borde-collie.jpg"
+                alt="Ilustrace border kolie"
+                class="work__img work__img--illustration"
+                loading="lazy"
+              />
+              <h3 class="work__title">Ilustrace</h3>
+              <p class="work__desc">
+                Vektorová ilustrace s výrazným charakterem.
+              </p>
+            </article>
+
+            <article class="card work">
+              <img
+                src="assets/portfolio-plakat-spanelsko.jpg"
+                alt="Plakát – Španělsko"
+                class="work__img work__img--poster"
+                loading="lazy"
+              />
+              <h3 class="work__title">Plakát</h3>
+              <p class="work__desc">
+                Typografie a kontrasty pro silné sdělení.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- RECENZE -->
+      <section id="recenze" class="section">
+        <div class="container">
+          <h2>Recenze</h2>
+
+          <div class="grid grid--2">
+            <blockquote class="card quote">
+              <p>
+                „Skvělá spolupráce, rychlá komunikace a cit pro detail. Výsledek
+                působí profesionálně a čistě.“
+              </p>
+              <footer>— Jana K.</footer>
+            </blockquote>
+
+            <blockquote class="card quote">
+              <p>
+                „Veronika dokázala vystihnout charakter značky a dodat návrhy,
+                které fungují online i v tisku.“
+              </p>
+              <footer>— Martin P.</footer>
+            </blockquote>
+
+            <blockquote class="card quote">
+              <p>
+                „Kombinace kreativity a systematičnosti. Doporučuji, pokud
+                chcete rychle posunout vizuál značky.“
+              </p>
+              <footer>— Klientka z oblasti služeb</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- KONTAKT -->
+      <section id="kontakt" class="section">
+        <div class="container">
+          <h2>Kontakt</h2>
+
+          <div class="card contact">
+            <p>
+              <strong>Telefon:</strong>
+              <a href="tel:+420702007423">+420 702 007 423</a>
+            </p>
+            <p>
+              <strong>E-mail:</strong>
+              <a href="mailto:info@veronikadesign.cz">info@veronikadesign.cz</a>
+            </p>
+            <p class="note"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <small>© <span id="year"></span> VeronikaDesign</small>
+        <div class="footer__links">
+          <a href="#" target="_blank" rel="noreferrer">Instagram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
